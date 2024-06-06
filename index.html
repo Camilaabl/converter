@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+<form action="#">
+    <h1>
+        Конвертер валют
+    </h1>
+    <input type="number" class="income" placeholder="сум в uzs">
+     <select name="currency" oninput="convert()"> 
+        <option value="ruble"> рубль</option>
+        <option value="usd"> доллар</option>
+        <option value="euro"> евро</option>
+
+     </select>
+     <input type="text" class="outcome">
+
+</form>
+<script src="./script.js"></script>
+</body>
+</html>
